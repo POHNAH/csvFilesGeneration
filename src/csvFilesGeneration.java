@@ -11,8 +11,6 @@ public class csvFilesGeneration {
             for (int i = 0; i < 5000; i++) {
                 bw.write(String.format("%6d",i).replaceAll(" ","0") + ";\n");
             }
-//            String text = "Hello  World!\nHey! Teachers! Leave them kids alone.";
-
         }
         catch(IOException ex){
 
